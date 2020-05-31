@@ -1,4 +1,13 @@
-# Two given string to calculate longest common subsequence using dynamic programming
+# Two given strings to calculate longest common subsequence using dynamic programming
+
+# algorithm
+# inputs x & y
+# for i =0 to len(x)-1 
+#    for j =0 to - len(y)-1
+#        if x[i] == y[j]
+#           arr[i][j] = arr[i-1][j-1] + 1
+#        else
+#           arr[i][j] = max(arr[i-1][j],arr[i][j-1])
 
 x = "ABABC"[::-1]
 y = "BABCA"[::-1]
